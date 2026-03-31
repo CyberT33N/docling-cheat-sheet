@@ -15,3 +15,8 @@ Install:
 pip install docling
 pip install hf_xet
 ```
+
+Test:
+```shell
+docling https://arxiv.org/pdf/2206.01062
+```
