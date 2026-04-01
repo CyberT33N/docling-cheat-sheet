@@ -12,5 +12,6 @@ docling knowledge\pms\dampsoft\DS_Anleitung_Smartphone_Anbindung.pdf --to md --i
 
 ## Recursive folder
 ```shell
-docling knowledge --to md --image-export-mode referenced --output converted
+cd C:\shared\sandbox-toolchains\python-general\work
+docling input --to md --image-export-mode referenced --output output
 ```
