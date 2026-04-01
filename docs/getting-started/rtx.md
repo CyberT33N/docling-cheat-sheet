@@ -69,6 +69,15 @@ For other CUDA versions and installation options, refer to the [PyTorch Installa
 
 Verify PyTorch CUDA installation:
 
+
+
+
+CLI:
+```shell
+python -c "import torch; print(torch.cuda.is_available())"
+```
+
+Python:
 ```python
 import torch
 print(f"PyTorch version: {torch.__version__}")
